@@ -8,7 +8,7 @@ It is designed to be used where multiple node processes are running behind a loa
 
 The generated key looks like this
 
-    [orwell.local:13691]
+    orwell.local:13691
 
 This includes
 
@@ -17,7 +17,7 @@ This includes
 
 Or this if you include a component name
 
-    [component:orwell.local:13691]
+    component:orwell.local:13691
 
 This includes
 
@@ -37,12 +37,12 @@ You can pass an optional component name if you wish to include that in your logg
     var timberhitch = require('timberhitch');
     console.log(timberhitch());
 
-    > [orwell.local:13691]
+    > orwell.local:13691
 
     var timberhitch = require('timberhitch');
     console.log(timberhitch('component'));
 
-    > [compenent:orwell.local:28984]
+    > compenent:orwell.local:28984
 
 You can use it with any library through string concatenation.
 
@@ -52,4 +52,4 @@ You can use it with any library through string concatenation.
     
     winston.info(loggingKey + 'some log message');
 
-    > info: [orwell.local:13691] some log message
+    > info: orwell.local:13691 some log message

@@ -1,7 +1,7 @@
 {
   "name": "timberhitch",
   "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generate a string for a process that can be used in logging",
   "keywords": [
     "logging",
